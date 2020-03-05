@@ -279,7 +279,7 @@ a.intext-link:hover, a.intext-link:focus {
   height: auto;
   display: block;
   position: relative;
-  width: 75%;
+  max-width: 75%;
   margin-left: auto;
   margin-right: auto;
   margin-top: -2rem;
@@ -414,13 +414,19 @@ h4.short-project-description {
   }
 
   .project-gsc {
-    height: 29.5rem;
+    height: 30rem;
+  }
+}
+
+@media (max-width:375px){
+  .project-thumbnail {
+    /* max-width: 120px; */
   }
 }
 
 @media (max-width:2562px) {
   .project-thumbnail {
-    width: 75%;
+    /* width: 75%; */
     margin-top: -2rem;
   }
 }
@@ -440,14 +446,14 @@ h4.short-project-description {
 @media (max-width:1274px) {
   .project-thumbnail {
     margin-top: -0.2rem;
-    width: 332px;
+    /* width: 332px; */
   }
 }
 
 @media (max-width:1200px) {
   .project-thumbnail {
     padding-top: 0.2rem;
-    max-width: 80%;
+    /* max-width: 80%; */
   }
 }
 
@@ -466,7 +472,7 @@ h4.short-project-description {
 @media (max-width:1003px) {
   .project-thumbnail {
     padding-top: 1rem;
-    max-width: 256px;
+    /* max-width: 120px; */
   }
 }
 
