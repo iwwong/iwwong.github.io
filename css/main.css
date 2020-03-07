@@ -487,6 +487,20 @@ a.intext-link:hover, a.intext-link:focus {
   .project-gsc {
     height: 29.5rem;
   }
+
+  h1{
+    font-size: 2rem;
+  }
+}
+
+@media (max-width:348px){
+  h1{
+    font-size: 1.5rem;
+  }
+
+  h3.header-subtitle{
+    font-size: 0.8rem;
+  }
 }
 
 /* Styling for Project Pages  */
